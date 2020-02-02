@@ -152,4 +152,19 @@ body {
 .carousel-item {
   padding: 7% 15%;
 }
+
+.pricing-title {
+  margin: 5% 15%;
+  text-align: center;
+}
+
+.pricing-title h2 {
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+.pricing-title p {
+  color: #8f8f8f;
+  font-size: 1.2rem;
+}
 /*# sourceMappingURL=styles.css.map */
