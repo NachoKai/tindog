@@ -112,6 +112,7 @@ body {
     text-align: center;
     background-color: #ef8172;
     color: #fff;
+      display: flex;
 
     h1 {
         font-family: 'Montserrat', sans-serif;
@@ -150,6 +151,7 @@ body {
     width: 15%;
     margin: 20px 20px 50px;
 }
+
 .press-logo:hover {
     width: 15%;
     margin: 20px 20px 50px;
@@ -178,6 +180,18 @@ body {
     }
 }
 
-.card{
+.card {
     min-width: 200px !important;
+}
+
+@media (max-width: 1028px) {
+    .cont-img {
+        display: flex;
+        justify-content: center;
+    }
+
+    .title-img {
+        position: static;
+        transform: rotate(0deg);
+    }
 }

@@ -113,6 +113,9 @@ body {
   text-align: center;
   background-color: #ef8172;
   color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 #testimonials h1 {
@@ -180,5 +183,21 @@ body {
 
 .card {
   min-width: 200px !important;
+}
+
+@media (max-width: 1028px) {
+  .cont-img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .title-img {
+    position: static;
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
 }
 /*# sourceMappingURL=styles.css.map */
