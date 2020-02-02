@@ -59,9 +59,12 @@ body {
 
 /* Title Image */
 .title-img {
+    position: relative;
+    top: -75px;
     float: right;
     width: 60%;
     transform: rotate(15deg);
+    z-index: 0;
 }
 
 .title-img:hover {
@@ -167,4 +170,8 @@ body {
         color: #8f8f8f;
         font-size: 1.2rem;
     }
+}
+
+.card{
+    min-width: 200px !important;
 }
