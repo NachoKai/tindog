@@ -199,5 +199,8 @@ body {
     -webkit-transform: rotate(0deg);
             transform: rotate(0deg);
   }
+  .title {
+    text-align: center;
+  }
 }
 /*# sourceMappingURL=styles.css.map */

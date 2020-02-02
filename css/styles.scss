@@ -112,7 +112,7 @@ body {
     text-align: center;
     background-color: #ef8172;
     color: #fff;
-      display: flex;
+    display: flex;
 
     h1 {
         font-family: 'Montserrat', sans-serif;
@@ -193,5 +193,9 @@ body {
     .title-img {
         position: static;
         transform: rotate(0deg);
+    }
+
+    .title {
+        text-align: center;
     }
 }
