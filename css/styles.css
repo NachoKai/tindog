@@ -1,4 +1,14 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat|Ubuntu&display=swap");
+* {
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
 body {
   font-family: 'Montserrat', sans-serif;
 }
@@ -53,6 +63,13 @@ body {
   width: 60%;
   -webkit-transform: rotate(15deg);
           transform: rotate(15deg);
+}
+
+.title-img:hover {
+  float: right;
+  width: 60%;
+  -webkit-transform: rotate(5deg);
+          transform: rotate(5deg);
 }
 
 /* Features */
@@ -119,5 +136,16 @@ body {
   width: 15%;
   border-radius: 100%;
   margin: 10px;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
 }
 /*# sourceMappingURL=styles.css.map */
