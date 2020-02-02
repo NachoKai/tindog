@@ -102,7 +102,7 @@ body {
 }
 
 .features i:hover {
-    font-size: 4rem;
+    font-size: 4.5rem;
     color: #ff4c68;
 }
 
@@ -149,6 +149,12 @@ body {
 .press-logo {
     width: 15%;
     margin: 20px 20px 50px;
+}
+.press-logo:hover {
+    width: 15%;
+    margin: 20px 20px 50px;
+    transform: rotate(5deg);
+
 }
 
 .carousel-item {
