@@ -191,12 +191,16 @@ body {
     }
 
     .title-img {
+        margin-top: 10%;
         position: static;
         transform: rotate(0deg);
     }
 
     .title {
         text-align: center;
+    }
+    #testimonials{
+        padding: 2%;
     }
 }
 

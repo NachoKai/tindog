@@ -195,12 +195,16 @@ body {
             justify-content: center;
   }
   .title-img {
+    margin-top: 10%;
     position: static;
     -webkit-transform: rotate(0deg);
             transform: rotate(0deg);
   }
   .title {
     text-align: center;
+  }
+  #testimonials {
+    padding: 2%;
   }
 }
 
