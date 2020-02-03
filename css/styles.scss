@@ -190,6 +190,11 @@ h6 {
     min-width: 200px !important;
 }
 
+#buttons {
+    display: flex;
+    justify-content: center;
+}
+
 @media only screen and (max-width: 1028px) {
     .cont-img {
         display: flex;
@@ -222,9 +227,38 @@ h6 {
     }
 
     .testimonial-text {
-        font-size: 2rem !important;
+        font-size: 1.5rem !important;
     }
 
+    .navbar {
+        margin: 0 !important;
+        padding: 0 0 1rem !important;
+    }
+
+    .container-fluid {
+        padding: 2% 3% !important;
+    }
+
+    .pricing-title h2 {
+        font-size: 2rem;
+        font-weight: 800;
+    }
+
+    .pricing-title p {
+        color: #8f8f8f;
+        font-size: 1rem;
+        padding-bottom: 5%;
+    }
+
+    #footer h2 {
+        font-size: 2rem !important;
+        font-weight: bold;
+    }
+
+    .press-logo {
+        width: 30%;
+        margin: 20px 20px 50px;
+    }
 }
 
 // Footer
