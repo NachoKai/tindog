@@ -55,6 +55,13 @@ h6 {
   color: #fff !important;
   font-size: 1.1rem;
   font-weight: 400;
+  letter-spacing: 1.2px;
+}
+
+.nav-link:hover {
+  letter-spacing: 1px;
+  -webkit-transform: rotate(5deg);
+          transform: rotate(5deg);
 }
 
 /* Download Buttons */
@@ -65,7 +72,6 @@ h6 {
 /* Title Image */
 .title-img {
   position: relative;
-  top: -75px;
   float: right;
   width: 60%;
   -webkit-transform: rotate(15deg);
@@ -206,6 +212,11 @@ h6 {
   }
   #testimonials {
     padding: 2%;
+  }
+  .nav-link:hover {
+    letter-spacing: 1px;
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
   }
 }
 
